@@ -21,7 +21,7 @@ public void on_button_clock(View view) {
     TextView tv = this.findViewById(R.id.textView);
 
     Random r = new Random();
-    int number = r.nextInt(7);
+    int number = r.nextInt(10);
 
     tv.setText(Integer.toString(number));
 
